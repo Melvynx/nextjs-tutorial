@@ -1,5 +1,4 @@
 import Head from 'next/head';
-import Image from 'next/Image';
 import Link from 'next/link';
 import BaseLayout from '../src/components/BaseLayout';
 import Nav from '../src/components/Nav';
@@ -54,7 +53,7 @@ export default function Home() {
           rel="noopener noreferrer"
         >
           Powered by{' '}
-          <Image
+          <img
             width="auto"
             height={40}
             src="/vercel.svg"
